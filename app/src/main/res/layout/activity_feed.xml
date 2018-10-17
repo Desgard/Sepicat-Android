@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools = "http://schemas.android.com/tools"
-    android:orientation="vertical"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_feed"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/myMessage"
-        />
+    <ListView
+        android:id="@+id/feed_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
 
-    <Button
-        android:id="@+id/myButton"
-        android:text="go to next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
